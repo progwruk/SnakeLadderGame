@@ -6,8 +6,8 @@ namespace SnakeAndLadder
     {
         static void Main(string[] args)
         {
-            Game player = new Game();
-            player.Play();
+            Game game = new Game();
+            game.Play();
         }
     }
 }
