@@ -4,9 +4,10 @@ namespace SnakeAndLadder
 {
     class Program
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to snake and ladder game");
+            Game game = new Game();
+            Console.WriteLine(game.playerPosition);
         }
     }
 }
