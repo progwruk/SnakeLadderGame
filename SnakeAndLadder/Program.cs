@@ -7,7 +7,8 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
             Game game = new Game();
-            Console.WriteLine(game.playerPosition);
+            game.DieRoll();
+            Console.WriteLine(game.DieRoll());
         }
     }
 }
